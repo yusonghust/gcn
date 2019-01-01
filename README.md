@@ -4,6 +4,7 @@ An much simpler and easy understand graph convolutional network.
 
 [original gcn code can be found here](https://github.com/tkipf/gcn)  
 [A pretty nice gcn blog can be found here](https://tkipf.github.io/graph-convolutional-networks/)  
+[A standard NE/NRL(Network Representation Learning）training and testing framework](https://github.com/thunlp/OpenNE)  
 
 This implementation of gcn is easier to understand, which will be more friendly for newcomer.  
 
