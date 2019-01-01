@@ -5,7 +5,7 @@ An much simpler and easy understand graph convolutional network.
 [original gcn code can be found here](https://github.com/tkipf/gcn)  
 [A pretty nice gcn blog can be found here](https://tkipf.github.io/graph-convolutional-networks/)  
 
-This implementation of gcn is easier to understand, which will be more friendly to newcomer.  
+This implementation of gcn is easier to understand, which will be more friendly for newcomer.  
 
 ## Usage:  
 **Input:**  
