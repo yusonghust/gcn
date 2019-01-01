@@ -28,13 +28,13 @@ If we don't have fearture matrix, the fearure matrix will be replaced by an iden
 Wiki : 2405 nodes, 17981 edges, 17 labels, directed, no features;  
 Cora : 2708 nodes, 5429 edges, 7 labels, directed, features available;  
 **To run the code on Wiki dataset(if you want to treat it as undirected graph):**  
-'''
+```
 python main.py --edgelist data/wiki/Wiki.edgelist --labels data/wiki/Wiki.labels --label_nums 17 --lr 0.001 --epochs 800  
-'''  
+```  
 **To run the code on Cora dataset(if you want to treat it as directed graph):**  
-'''
+```
 python main.py --edgelist data/cora/cora.edgelist --labels data/cora/cora.labels --label_nums 7 --features data/cora/cora.features --epochs 500 --directed   
-'''  
+```  
 ## Classification accuracy(50% training data):
 Wiki: around 0.68-0.71;  
 Cora: around 0.77-0.81(without node features), around 0.79-0.84(with node features);  
