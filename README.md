@@ -25,7 +25,7 @@ If we don't have fearture matrix, the fearure matrix will be replaced by an iden
 --clf-retio: the ratio of training data for node classification; the default is 0.5;   
 **Environment:** python 3.6, tensorflow 1.11.0  
 **DataSet:**  
-[datasets are from here](https://github.com/thunlp/OpenNE)  
+[datasets are from here](https://github.com/thunlp/OpenNE/tree/master/data)  
 Wiki : 2405 nodes, 17981 edges, 17 labels, directed, no features;  
 Cora : 2708 nodes, 5429 edges, 7 labels, directed, features available;  
 **To run the code on Wiki dataset(if you want to treat it as undirected graph):**  
