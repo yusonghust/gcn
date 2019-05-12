@@ -40,8 +40,7 @@ python main.py --edgelist data/cora/cora.edgelist --labels data/cora/cora.labels
 ```  
 ## Classification accuracy(50% training data):
 Wiki: around 0.68-0.71;  
-Cora: around 0.77-0.81(without node features), around 0.79-0.84(with node features);  
-Note: for both datasets, only training 800 epochs several times, thus the accuracy is not stable.    
+Cora: around 0.77-0.81(without node features), around 0.79-0.84(with node features);      
 
 ## GCN_demo  
 [This demo refers to this repository](https://github.com/dbusbridge/gcn_tutorial)  
