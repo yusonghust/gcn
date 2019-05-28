@@ -5,7 +5,7 @@ from sklearn.manifold import TSNE
 
 def emb_reduction(X):
     tsne = TSNE(n_components=2, perplexity=10, init='pca', random_state=0, n_iter=5000, learning_rate=0.1)
-    emb= tsne.fit_transform(embeddings)
+    emb= tsne.fit_transform(X)
     return emb
 
 def plot_embeddings(X,nodes,labels,savefile):
